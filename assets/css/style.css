@@ -9,23 +9,23 @@ body {
 }
 
 /* Header Styling */
-.header {
+header {
     padding: 20px;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     background-color: #2a607c;
     color: #ffffff;
 }
 
-.header h1 {
+header h1 {
     display: inline-block;
     font-size: 48px;
 }
 
-.header h1 .seo {
+header h1 .seo {
     color: #d9dcd6;
 }
 
-.header nav {
+ nav {
     padding-top: 15px;
     margin-right: 20px;
     float: right;
@@ -33,11 +33,9 @@ body {
     font-size: 20px;
 }
 
-.header nav ul li {
-    display: inline-block;
-    list-style-type: none;
+nav ul li {
      margin-left: 25px;
-     list-style-type: none;
+     display: inline-block;
     }
 
 a {
@@ -69,19 +67,16 @@ p {
     float: right;
     margin-left: 25px;
 }
-
-.content {
+article {
     width: 75%;
     display: inline-block;
     margin-left: 20px;
     height: 100%;
 }
-.article{
-    display:inline;
-}
+
 
 /* aside styling */
-.benefits {
+aside {
     margin-right: 20px;
     padding: 20px;
     clear: both;
@@ -92,7 +87,7 @@ p {
     background-color: #2589bd;
 }
 
-.figure {
+figure {
     margin-bottom: 32px;
     color: #ffffff;
 }
@@ -103,13 +98,13 @@ p {
 
 }
 
-.figure img {
+figure img {
     display: block;
     margin: 10px auto;
     max-width: 150px;
 }
 
-.section {
+section {
     margin-bottom: 20px;
     padding: 50px;
     height: 300px;
@@ -118,24 +113,20 @@ p {
     color: #ffffff;
 }
 
-.section img {
+section img {
     max-height: 200px;
 }
 
-h2 {
+section h2 {
     margin-bottom: 20px;
     font-size: 36px;
 }
 
 /* footer styling */
 
-.footer {
+footer {
     padding: 30px;
     clear: both;
     font-family: 'Trebuchet MS', 'Lucida Sans Unicode', 'Lucida Grande', 'Lucida Sans', Arial, sans-serif;
     text-align: center;
-}
-
-.footer h2 {
-    font-size: 20px;
 }
